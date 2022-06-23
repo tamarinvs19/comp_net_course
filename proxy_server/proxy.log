@@ -1,0 +1,38 @@
+2022-04-24 21:25:58.108 | INFO     | __main__:run:34 - Listening on port 8889
+2022-04-24 21:26:08.068 | INFO     | __main__:handler:65 - Connection to ('127.0.0.1', 33390) is opened
+2022-04-24 21:26:08.069 | INFO     | __main__:handler:72 - Request url https://ya.ru
+2022-04-24 21:26:08.240 | INFO     | __main__:handler:83 - Response code 200
+2022-04-24 21:26:08.241 | INFO     | __main__:handler:92 - b'Connection to {address} is closed'
+2022-04-24 21:26:20.146 | INFO     | __main__:handler:65 - Connection to ('127.0.0.1', 33392) is opened
+2022-04-24 21:26:20.147 | INFO     | __main__:handler:72 - Request url https://emkn.ru
+2022-04-24 21:26:20.302 | INFO     | __main__:handler:83 - Response code 200
+2022-04-24 21:26:20.303 | INFO     | __main__:handler:92 - b'Connection to {address} is closed'
+2022-04-24 21:26:20.346 | INFO     | __main__:handler:65 - Connection to ('127.0.0.1', 33394) is opened
+2022-04-24 21:26:20.347 | INFO     | __main__:handler:72 - Request url https://static/v1/dist/css/center/style.5f80ceca3a45.css
+2022-04-24 21:26:20.363 | ERROR    | __main__:handler:88 - HTTPSConnectionPool(host='static', port=443): Max retries exceeded with url: /v1/dist/css/center/style.5f80ceca3a45.css (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f58bcd9bb50>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+2022-04-24 21:26:20.363 | INFO     | __main__:handler:92 - b'Connection to {address} is closed'
+2022-04-24 21:26:20.363 | INFO     | __main__:handler:65 - Connection to ('127.0.0.1', 33396) is opened
+2022-04-24 21:26:20.363 | INFO     | __main__:handler:72 - Request url https://static/v1/css/vendor/highlight-styles/tomorrow.8662c2c36baa.css
+2022-04-24 21:26:20.387 | ERROR    | __main__:handler:88 - HTTPSConnectionPool(host='static', port=443): Max retries exceeded with url: /v1/css/vendor/highlight-styles/tomorrow.8662c2c36baa.css (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f58bcd9b6d0>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+2022-04-24 21:26:20.387 | INFO     | __main__:handler:92 - b'Connection to {address} is closed'
+2022-04-24 21:26:20.388 | INFO     | __main__:handler:65 - Connection to ('127.0.0.1', 33398) is opened
+2022-04-24 21:26:20.388 | INFO     | __main__:handler:72 - Request url https://static/v1/dist/prod/runtime-4d1802597b085a78ff77.js
+2022-04-24 21:26:20.402 | ERROR    | __main__:handler:88 - HTTPSConnectionPool(host='static', port=443): Max retries exceeded with url: /v1/dist/prod/runtime-4d1802597b085a78ff77.js (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f58bcd9afe0>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+2022-04-24 21:26:20.402 | INFO     | __main__:handler:92 - b'Connection to {address} is closed'
+2022-04-24 21:26:20.403 | INFO     | __main__:handler:65 - Connection to ('127.0.0.1', 33400) is opened
+2022-04-24 21:26:20.403 | INFO     | __main__:handler:72 - Request url https://static/v1/dist/prod/vendor-9f186529efe39f695f92.js
+2022-04-24 21:26:20.418 | ERROR    | __main__:handler:88 - HTTPSConnectionPool(host='static', port=443): Max retries exceeded with url: /v1/dist/prod/vendor-9f186529efe39f695f92.js (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f58bcd9b910>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+2022-04-24 21:26:20.418 | INFO     | __main__:handler:92 - b'Connection to {address} is closed'
+2022-04-24 21:26:20.418 | INFO     | __main__:handler:65 - Connection to ('127.0.0.1', 33402) is opened
+2022-04-24 21:26:20.419 | INFO     | __main__:handler:72 - Request url https://static/v1/img/lms/logo.b0504b663622.svg
+2022-04-24 21:26:20.434 | ERROR    | __main__:handler:88 - HTTPSConnectionPool(host='static', port=443): Max retries exceeded with url: /v1/img/lms/logo.b0504b663622.svg (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f58bcd9a830>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+2022-04-24 21:26:20.435 | INFO     | __main__:handler:92 - b'Connection to {address} is closed'
+2022-04-24 21:26:20.479 | INFO     | __main__:handler:65 - Connection to ('127.0.0.1', 33404) is opened
+2022-04-24 21:26:20.480 | INFO     | __main__:handler:72 - Request url https://static/v1/img/lms/favicon.364fd4ca48fe.ico
+2022-04-24 21:26:20.512 | ERROR    | __main__:handler:88 - HTTPSConnectionPool(host='static', port=443): Max retries exceeded with url: /v1/img/lms/favicon.364fd4ca48fe.ico (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f58bcd99e40>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+2022-04-24 21:26:20.512 | INFO     | __main__:handler:92 - b'Connection to {address} is closed'
+2022-04-24 21:26:35.499 | INFO     | __main__:handler:65 - Connection to ('127.0.0.1', 33406) is opened
+2022-04-24 21:26:35.499 | INFO     | __main__:handler:72 - Request url https://google.com
+2022-04-24 21:26:35.499 | INFO     | __main__:handler:79 - URL in blacklist
+2022-04-24 21:26:35.499 | INFO     | __main__:handler:92 - b'Connection to {address} is closed'
+2022-04-24 21:27:49.709 | INFO     | __main__:<module>:117 - Shotting down
