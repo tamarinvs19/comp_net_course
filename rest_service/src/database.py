@@ -8,3 +8,9 @@ engine = create_engine(SQLALCHEMY_DATABAE_URL)
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
 Base = declarative_base()
+
+class A:
+    def __init__(self, x: int):
+        self.x = x
+
+

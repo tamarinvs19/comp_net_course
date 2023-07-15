@@ -1,12 +1,12 @@
 import netifaces
 from typing import Tuple
-
+import rest_service.src.database
 
 def get_available_interfaces() -> list[str]:
     return netifaces.interfaces()
 
 
-def get_ip_addr_and_mask(interface: str = 'wlan0') -> Tuple[str, str]:
+def get_ip_addr_and_mask(a: rest_service.src.database.A, interface: str = 'wlan0') -> Tuple[str, str]:
     try:
         ip_data = netifaces.ifaddresses(interface)[netifaces.AF_INET][0]
         return ip_data['addr'], ip_data['netmask']
